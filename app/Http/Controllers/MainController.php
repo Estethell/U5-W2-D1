@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Database\Migrations\Migration;
+
+
+
 
 class MainController extends Controller
 {
@@ -19,6 +22,7 @@ public function edit() {
 public function add() {
     return view('add');
 }
+
 
 
 }
