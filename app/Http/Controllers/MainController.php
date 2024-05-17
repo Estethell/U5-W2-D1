@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Database\Migrations\Migration;
+
 
 
 
@@ -22,6 +22,7 @@ public function edit() {
 public function add() {
     return view('add');
 }
+
 
 
 
